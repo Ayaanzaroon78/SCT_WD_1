@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="demo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">Boat Servies</h1>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="carousel">
+      <img src="slide1.png" class="carousel-image active" alt="Slide 1">
+      <img src="slide2.png" class="carousel-image" alt="Slide 2">
+      <img src="slide3.png" class="carousel-image" alt="Slide 3">
+    </div>
+    <div class="hero-text">
+      <h2>Responsive & Dynamic Websites</h2>
+      <p>We create responsive, modern and high-performing websites to elevate your business.</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="web_development.png" alt="Service 1">
+        <h3>Web Development</h3>
+        <p>We build responsive and feature-rich websites tailored to your needs.</p>
+      </div>
+      <div class="service">
+        <img src="web_design.png" alt="Service 2">
+        <h3>Web Design</h3>
+        <p>Creative and responsive design solutions for modern websites.</p>
+      </div>
+      <div class="service">
+        <img src="mobile_app_development.png" alt="Service 3">
+        <h3>Mobile App Development</h3>
+        <p>Robust and scalable development for your business growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <img src="about_us.png" alt="About Us">
+    <div class="text-content">
+      <h1>About Us</h1>
+      <p>Learn about our journey, values, and what makes us unique.</p>
+      <p>Delivering excellence through passion and expertise.</p>
+      <p>Commitment to quality, innovation, and customer satisfaction.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Reach out to us with any questions or feedback.</p>
+
+    <div class="contact-details">
+      <div class="info">
+        <p><strong>📞 Phone:</strong> +91 9323467890</p>
+        <p><strong>✉️ Email:</strong> info@example.com</p>
+        <p><strong>📍 Address:</strong> 123 Business Street, City, Country</p>
+        <p><strong>🕒 Hours:</strong> Mon-Fri, 9:00 AM - 6:00 PM</p>
+      </div>
+      <form action="#" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <script src="demo.js"></script>
+</body>
+</html>
